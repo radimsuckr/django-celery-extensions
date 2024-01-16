@@ -40,7 +40,7 @@ setup(
     install_requires=[
         'django>=2.2.14, <4.0',
         'import_string>=0.1.0',
-        'celery>=5.2, <5.3'
+        'celery>=5.2, <6',
     ],
     entry_points={'console_scripts': [
         'celeryautoreload=django_celery_extensions.bin.celeryautoreload:celery_autoreload',
